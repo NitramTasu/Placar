@@ -45,6 +45,8 @@ class PlacarAACActivity : AppCompatActivity() {
         bt1PontosTimeB.setOnClickListener {
             placarAACViewModel.adicionarPontoTimeB(1)
         }
+
+        btReiniciar.setOnClickListener { placarAACViewModel.reiniciarJogo() }
     }
 
     private fun registraObservers() {

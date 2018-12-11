@@ -21,5 +21,10 @@ class PlacarAACViewModel: ViewModel(){
         placarB.value = placarB.value?.plus(ponto)
     }
 
+    fun reiniciarJogo(){
+        placarA.value = 0
+        placarB.value = 0
+    }
+
 
 }
